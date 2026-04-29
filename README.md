@@ -125,7 +125,6 @@ nexacorp-vapt/
 │   └── aggressive_scan.txt
 ├── report/
 │   └── NexaCorp_VAPT_Report.pdf
-├── screenshots/
 └── methodology.md
 ```
 
