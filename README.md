@@ -1,11 +1,11 @@
 # nexacorp-vapt
 Full VAPT engagement on an internal network lab using Nmap &amp; OpenVAS. Covers host discovery, port scanning, service enumeration, OS fingerprinting, and vulnerability detection. 10 findings identified including 4 Critical CVEs. Includes a professional penetration testing report.
 
-# 🔐 Network Vulnerability Assessment & Penetration Testing (VAPT)
+# Network Vulnerability Assessment & Penetration Testing (VAPT)
 ### NexaCorp Financial Services — Internal Network Security Assessment
 
 
-## 📋 Project Overview
+## Project Overview
 
 This project demonstrates a full **Vulnerability Assessment and Penetration Testing (VAPT)** engagement conducted against a simulated corporate internal network. The assessment follows industry-standard methodology used by professional penetration testers and security consultants.
 
@@ -18,7 +18,7 @@ The project covers the complete lifecycle of a real-world VAPT engagement:
 - Risk analysis and professional report writing
 
 
-## 🎯 Scenario
+##  Scenario
 
 **Client:** NexaCorp Financial Services (simulated)  
 **Engagement Type:** Internal Network Penetration Test  
@@ -27,7 +27,7 @@ The project covers the complete lifecycle of a real-world VAPT engagement:
 **Attacker Machine:** Kali Linux 2025.3  
 
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Version | Purpose |
 |------|---------|---------|
@@ -38,7 +38,7 @@ The project covers the complete lifecycle of a real-world VAPT engagement:
 | **Metasploitable2** | 2.0 | Intentionally vulnerable target VM |
 
 
-## 🔬 Methodology
+##  Methodology
 
 This assessment followed the **PTES (Penetration Testing Execution Standard)** and **OWASP Testing Guide**.
 
@@ -52,7 +52,7 @@ Phase 5 → Analysis & Report   (CVE Correlation + Risk Rating)
 
 ---
 
-## 🖥️ Lab Setup
+##  Lab Setup
 
 ```
 ┌─────────────────────┐         ┌──────────────────────┐
@@ -65,7 +65,7 @@ Phase 5 → Analysis & Report   (CVE Correlation + Risk Rating)
 
 ---
 
-## 📡 Nmap Commands Used
+##  Nmap Commands Used
 
 ### 1. Host Discovery
 ```bash
@@ -94,7 +94,7 @@ nmap -A 192.168.157.131 -oN nmap/aggressive_scan.txt
 
 ---
 
-## 🚨 Key Findings Summary
+##  Key Findings Summary
 
 | # | Vulnerability | CVE | CVSS | Risk |
 |---|--------------|-----|------|------|
@@ -113,7 +113,7 @@ nmap -A 192.168.157.131 -oN nmap/aggressive_scan.txt
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ```
 nexacorp-vapt/
@@ -131,7 +131,7 @@ nexacorp-vapt/
 
 ---
 
-## 📄 Full Report
+## Full Report
 
 The complete professional VAPT report is available in the `/report` folder. It includes:
 
@@ -145,7 +145,7 @@ The complete professional VAPT report is available in the `/report` folder. It i
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
 - Setting up an isolated penetration testing lab using VMware
 - Using Nmap for comprehensive network reconnaissance
@@ -156,7 +156,7 @@ The complete professional VAPT report is available in the `/report` folder. It i
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 > **This project was conducted entirely in a controlled, isolated lab environment against intentionally vulnerable virtual machines (Metasploitable2) for educational and portfolio purposes only.**
 >
