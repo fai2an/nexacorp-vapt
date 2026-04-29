@@ -163,8 +163,3 @@ The complete professional VAPT report is available in the `/report` folder. It i
 > All IP addresses used are private lab addresses. No real systems, networks, or organizations were targeted. Performing penetration testing against systems without explicit written authorization is illegal.
 >
 > This project is for **educational purposes only.**
-
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com)
